@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/spynoodle/Desktop/Quantisation/V2-Jan27/CppFiles/build",
+  "command": "/usr/bin/c++ -DUSE_C10D_GLOO -DUSE_C10D_NCCL -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -isystem /home/spynoodle/anaconda3/envs/py39_torch/lib/python3.9/site-packages/torch/include -isystem /home/spynoodle/anaconda3/envs/py39_torch/lib/python3.9/site-packages/torch/include/torch/csrc/api/include  -D_GLIBCXX_USE_CXX11_ABI=0 -g -D_GLIBCXX_USE_CXX11_ABI=0 -o CMakeFiles/example-app.dir/main.cpp.o -c /home/spynoodle/Desktop/Quantisation/V2-Jan27/CppFiles/main.cpp",
+  "file": "/home/spynoodle/Desktop/Quantisation/V2-Jan27/CppFiles/main.cpp"
+}
+]
