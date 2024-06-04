@@ -6,7 +6,8 @@
 using namespace std;
 
 #define N int8_t
-
+void hello_world(){
+	cout<<"HELLO_WORLD";}
 torch::Tensor ALU(torch::Tensor t1, torch::Tensor t2, string op)
 {
     torch::Tensor *Result = new torch::Tensor;
@@ -124,17 +125,17 @@ torch::Tensor ALU(torch::Tensor t1, torch::Tensor t2, string op)
     }
 }
 
-int main()
-{
+// int main()
+// {
 
-    torch::Tensor tensor1 = torch::randn({4, 1});
-    torch::Tensor tensor2 = torch::randn({4, 1});
-    tensor1 = tensor1.to(torch::kInt8);
-    tensor2 = tensor2.to(torch::kInt8);
+//     torch::Tensor tensor1 = torch::randn({4, 1});
+//     torch::Tensor tensor2 = torch::randn({4, 1});
+//     tensor1 = tensor1.to(torch::kInt8);
+//     tensor2 = tensor2.to(torch::kInt8);
 
-    cout << tensor1 << '\n'
-         << tensor2 << '\n'
-         << ALU(tensor1, tensor2, "+") << '\n';
+//     cout << tensor1 << '\n'
+//          << tensor2 << '\n'
+//          << ALU(tensor1, tensor2, "+") << '\n';
 
-    return 0;
-}
+//     return 0;
+// }
